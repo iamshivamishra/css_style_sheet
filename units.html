@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>units in css</title>
+    <style>
+      .box1{
+        width: 200px;
+        height: 100px;
+        background-color: aqua;
+        font-size: 10px;
+      }
+      .box2{
+             height: 50px;   
+             /* width: 50 px; */
+             width: 30%;
+             background-color: yellow;
+             margin-left: 10%;
+             font-size: 2em;
+             font-size: 5rem;
+             height: 100vh;
+             width: 100vw;
+      }
+    </style>
+</head>
+<body>
+    <p>hellow</p>
+    <!-- some units in css (Relative) -->
+     <!-- 1) % -->
+      <!-- it is used to define a size as relative to an element's parents object. -->
+       <div class="box1"> box1
+        <div class="box2">box2</div>
+       </div>
+     <!-- 2) em -->
+      <!-- font size of the parent, in the case of typographical properties like font-size, and font size of the element itself , in the case of other properties like width. -->
+
+
+
+     <!-- 3) rem -->
+      <!-- font size of the root element -->
+
+
+      <!-- 4) vh -> relative to 1% viewport height -->
+       <!-- 5) vw -> relative to 1% viewport width -->
+
+
+
+       <!-- position property -> THE position CSS property sets show how an element is positioned in a document -->
+        <!-- position: static / relative / absolute / fixed  -->
+         <!-- 1) static -> default position (the top , right , bottom , lef , and z-index property have no effect) -->
+          <!-- 2) relative -> element is  relative to itself . (the top , right , bottom , left , and z-index will work)  -->
+           <!-- 3) fixed -> positioned relative to browser . (removed from flow) -->
+            <!-- 4) sticky -> positioned based on user's scroll positioned -->
+</body>
+</html>

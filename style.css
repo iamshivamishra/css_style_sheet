@@ -1,0 +1,259 @@
+*{
+    /* color: pink; */
+}
+body{
+  background-color: rgb(0, 0, 0);
+}
+h1{
+    color: violet;
+    background-color: lightblue;
+}
+p{
+    color: green;
+}
+
+/* h1 is selector or color is property and red is value */
+
+ /* inline style , style tage , external style sheet */
+
+ button{
+    color: brown;
+    background-color: lightgreen;
+ }
+
+ /* RGB (red,green,blue)*/
+ h2{
+    color: rgb(255,0,0);
+ }
+
+ /*Hex (Hexadecimal)  */
+ h3{
+    color: #00ff;
+ }
+
+ /* selector
+ 1)Universal selector
+ *{
+
+ }
+
+ 2)Element selector
+ h1{
+
+}
+
+3)id selector
+   #hellow{
+
+}
+
+4)class selector
+ .first_page{
+
+}
+  */
+
+  #firstheading{
+    color: blue;
+  }
+
+  .secheading{
+    color: yellow;
+  }
+  #box{
+   color: blue;
+  }
+
+
+  /* .heading{
+   color: red;
+  } */
+  button{
+   background-color: aqua;
+  }
+  h1, h2 ,h3{
+   color: red;
+  }
+  
+
+  /* text property 
+      text-align: left / right / center ;  */
+  p{
+     text-align: center;
+     text-decoration: underline;
+
+  }
+  #lol{
+   text-align: center;
+   text-decoration: line-through;
+  }
+
+
+  /* text-decoration: underline / overline / line-through */
+  #lol{
+   text-decoration: line-through;
+  }
+  a{
+   text-decoration: none;
+  }
+
+
+  /*  font-weight: normal / bold / bolder / lighter; 
+        font-weight:100-900; */
+        .fox1{
+          font-weight: 100;
+        }
+        .fox2{
+         font-weight: 300;
+        }
+        .fox3{
+         font-weight:200;
+        }
+        .fox3{
+         font-weight: 900;
+        }
+      
+
+        /* font-family */
+        /* font-family: 'Courier New', Courier, monospace; */
+        .font-family{
+         text-decoration: none;
+         font-family: ' arial , Courier New', Courier, monospace;
+        }
+
+
+        /* units in css
+        pixels (px)
+        96px = 1 inch = 2.54cm
+         */
+         .px{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 19px;
+            text-decoration: none;
+         }
+
+
+         /* line height property
+         line-height: 2px;
+          */
+          .line-height{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 19px;
+            text-decoration: none;
+            /* line-height: 20px; */
+            line-height: normal;
+          }
+
+          /* text-transform
+          text-transform: uppercase / lowercase / capitalize / none ; 
+           */
+           .text-transform{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 19px;
+            text-decoration: none;
+            /* line-height: 20px; */
+            line-height: normal;
+            text-transform: none;
+           }
+          
+           /* practice set 2 */
+
+
+           .center{
+            color: white;
+            background-color: black;
+            text-align: center;
+           }
+           .center1{
+            text-decoration: none;
+            text-transform: capitalize;
+            font-family: times new 'Times New Roman', Times, serif;
+           }
+           #outer{
+            font-size: 25px;
+            color: white;
+           }
+           #inner{
+            font-size: 10px;
+            color: white;
+           }
+
+           /* box model in css */
+          /* height / width / border  */
+          .micro{
+            border: 2px ;
+            border: 2px solid red;
+            width: 300px;
+            text-align: center;
+          } 
+          .hi{
+               color: white;
+               height: 100px;
+               background-color: pink;
+               width: 160px;
+               border: 12px solid green;
+               text-align: center;
+            }
+
+            /* BORDER-RADIUS */
+            /* border-radius: 10px or 10%; */
+            .name{
+               border-radius: 50%;
+               color: aqua;
+               background-color: lightpink;
+               border: 2px solid red;
+               text-decoration: none;
+               width: 200px;
+               height: 200px;
+               font-size: 19px;
+               text-align: center;
+            }
+
+            /* padding */
+            /* padding: top / right / bottom / left ; */
+            .box1{
+               color: aqua;
+               background-color: lightpink;
+               border: 2px solid red;
+               text-decoration: none;
+               width: 200px;
+               height: 200px;
+               display: inline-block;
+               padding: 1px 2px 3px 4px;
+               margin: 12px;
+            }
+            .box2{
+               color: aqua;
+               background-color: lightpink;
+               border: 2px solid red;
+               text-decoration: none;
+               width: 200px;
+               height: 200px;
+               display: inline-block;
+               margin: 12px;
+            }
+            .box3{
+               color: aqua;
+               background-color: lightpink;
+               border: 2px solid red;
+               text-decoration: none;
+               width: 200px;
+               height: 200px;
+               display: inline-block;
+            }
+
+            /* same as margin */
+             
+
+            /* practice set 3 */
+
+            .roxe{
+               color: white;
+               background-color: aqua;
+               width: 100px;
+               height: 100px;
+               border-radius: 50%;
+               text-align: center;
+            }
+
+
